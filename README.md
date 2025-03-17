@@ -1,9 +1,9 @@
 <h1>Windows Server 2019 (Active Directory)</h1>
 
 
-<h2>Description</h2>
+<h2>Active Directory</h2>
 
-This project consists of a step-by-step guide on building a Virtual Machine and creating an Active Directory home lab environment, it’s recommended to allocate adequate resources, such as CPU, RAM, and storage, to meet your testing and development needs. Additionally, consider networking configurations such as virtual switches and VLANs before setting up your Virtual Machines.
+This project consists of a step-by-step guide on building a Virtual Machine and creating an Active Directory home lab environment. It’s recommended that adequate resources, such as CPU, RAM, and storage, be allocated to meet your testing and development needs. Additionally, consider networking configurations such as virtual switches and VLANs before setting up your Virtual Machines.
 <br />
 
 
@@ -12,7 +12,7 @@ This project consists of a step-by-step guide on building a Virtual Machine and 
 - <b>Download Windows Server ISO file</b> 
 - <b>Setup & Configuration </b>
 - <b>Configure Windows Server Setup</b>
-- <b>
+- <b>Boot Windows Server</b>
  
   
 <h2>Environments Used </h2>
@@ -25,17 +25,15 @@ This project consists of a step-by-step guide on building a Virtual Machine and 
 Launch the utility. <br/>
 <br /> 
 
-Click on this link [VMware Pro](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019) to download.
+Click on this link [Windows Server 2019 ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019) to download.
 <br />
-<?" alt=
+<img src="https://github.com/user-attachments/assets/7fecb957-eabe-4f70-872b-60ee8935b092" height="70%" width="70%" alt=
 "Download ISO"/>
-
-<br />
 <br/>
 <br />
 <h5>Process & Installation </h5>
 <br />
-Open Workstation. 
+Virtual Machine Creation. 
 <br />
 <br />
 The Setup Wizard panel will appear, then click <I><b>Next</b></i>. 
@@ -46,8 +44,8 @@ The Setup Wizard panel will appear, then click <I><b>Next</b></i>.
 Agree with the EULA terms, and then click <I><b>Next</b></I>. 
 <img src="https://github.com/user-attachments/assets/5190155c-98a0-44d0-8f5c-35e5f5d17d9c" height="70%" width="70%" alt=
 "End User Licenses Agreement"/>
- <br /> 
-  <br /> 
+<br /> 
+<br /> 
 Custom Setup Make sure that both Boxes are selected then proceed by <I><b>Next</b></I>.
 <br />
 <img src="https://github.com/user-attachments/assets/ae42477b-b45d-4606-97df-f581cf3ca1e7" height="70%" width="70%" alt=  
