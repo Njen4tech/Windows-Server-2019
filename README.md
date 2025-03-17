@@ -30,25 +30,27 @@ Click on this link [Windows Server 2019 ISO](https://www.microsoft.com/en-us/eva
 <img src="https://github.com/user-attachments/assets/7fecb957-eabe-4f70-872b-60ee8935b092" height="70%" width="70%" alt=
 "Download ISO"/>
 <br/>
-<br />
+<br/>
 <h5>Process & Installation </h5>
 <br />
 Virtual Machine Creation. 
 <br />
 <br />
 The Setup Wizard panel will appear, then click <I><b>Next</b></i>. 
-<img src="https://github.com/user-attachments/assets/572aba9b-9c2e-483a-a849-8602773b07f3" height="70%" width="70%" alt=
+<br />
+<img src="https://github.com/user-attachments/assets/82476b3d-1915-4f16-bfec-8e1aa012ddbe" height="70%" width="70%" alt=
 "Installations"/>
 <br />
 <br />
-Agree with the EULA terms, and then click <I><b>Next</b></I>. 
-<img src="https://github.com/user-attachments/assets/5190155c-98a0-44d0-8f5c-35e5f5d17d9c" height="70%" width="70%" alt=
+Typical(rec) then click <I><b>Next</b></I>. 
+<br />
+<img src="https://github.com/user-attachments/assets/99910378-c61c-4e0a-becd-4770f81f5da3" height="70%" width="70%" alt=
 "End User Licenses Agreement"/>
 <br /> 
 <br /> 
 Custom Setup Make sure that both Boxes are selected then proceed by <I><b>Next</b></I>.
 <br />
-<img src="https://github.com/user-attachments/assets/ae42477b-b45d-4606-97df-f581cf3ca1e7" height="70%" width="70%" alt=  
+<img src="https://github.com/user-attachments/assets/e546cb03-f72d-46e2-a060-2f8585919e73" height="70%" width="70%" alt=  
 "Custom Setup"/>
 <br />
 <br />
