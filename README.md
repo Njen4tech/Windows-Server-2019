@@ -115,6 +115,86 @@ This will launch VMware Workstation Pro, you are immediately prompted to enter a
 "Finished Configuration" />
 
 
+<h2>Active Directory Domain Services Configuration</h2>
+
+Log in to Windows Server 2019 using the local <b>Administrator</b> account. Once logged in, <b>Server Manager</b> will launch automatically.
+<br /><br />
+<img src="REPLACE_WITH_SERVER_MANAGER_DASHBOARD_SCREENSHOT" height="70%" width="70%" alt="Server Manager Dashboard" />
+<br /><br />
+
+Click <b>Add Roles and Features</b> from the Server Manager Dashboard. This launches the Add Roles and Features Wizard.
+<br /><br />
+<img src="REPLACE_WITH_ADD_ROLES_WIZARD_SCREENSHOT" height="70%" width="70%" alt="Add Roles and Features Wizard" />
+<br /><br />
+
+On the <b>Before You Begin</b> screen, review the information and click <i><b>Next</b></i>.
+<br /><br />
+<img src="REPLACE_WITH_BEFORE_YOU_BEGIN_SCREENSHOT" height="70%" width="70%" alt="Before You Begin" />
+<br /><br />
+
+Select <b>Role-based or feature-based installation</b>. This option allows you to install Active Directory on the local server. Click <i><b>Next</b></i>.
+<br /><br />
+<img src="REPLACE_WITH_ROLE_BASED_SCREENSHOT" height="70%" width="70%" alt="Role-based Installation" />
+<br /><br />
+
+Choose the local server from the server pool and click <i><b>Next</b></i>.
+<br /><br />
+<img src="REPLACE_WITH_SERVER_SELECTION_SCREENSHOT" height="70%" width="70%" alt="Server Selection" />
+<br /><br />
+
+On the <b>Server Roles</b> page, check <b>Active Directory Domain Services</b>. When prompted, click <b>Add Features</b>, then click <i><b>Next</b></i>.
+<br /><br />
+<img src="REPLACE_WITH_ADDS_SELECTION_SCREENSHOT" height="70%" width="70%" alt="AD DS Role Selection" />
+<br /><br />
+
+Proceed through the <b>Features</b> and <b>AD DS</b> information screens by clicking <i><b>Next</b></i>.
+<br /><br />
+<img src="REPLACE_WITH_ADDS_INFO_SCREENSHOT" height="70%" width="70%" alt="AD DS Information" />
+<br /><br />
+
+On the <b>Confirmation</b> screen, verify your selections and click <i><b>Install</b></i>. Wait for the role installation to complete.
+<br /><br />
+<img src="REPLACE_WITH_ADDS_INSTALL_SCREENSHOT" height="70%" width="70%" alt="AD DS Installing" />
+<br /><br />
+
+Once installation finishes, click <b>Close</b>.
+
+<h3>Promote Server to Domain Controller</h3>
+
+After AD DS installation, a notification flag will appear in Server Manager. Click the flag and select <b>Promote this server to a domain controller</b>.
+<br /><br />
+<img src="REPLACE_WITH_PROMOTION_NOTIFICATION_SCREENSHOT" height="70%" width="70%" alt="Promote to Domain Controller" />
+<br /><br />
+
+Select <b>Add a new forest</b>, then enter a root domain name (example: <b>lab.local</b>). Click <i><b>Next</b></i>.
+<br /><br />
+<img src="REPLACE_WITH_NEW_FOREST_SCREENSHOT" height="70%" width="70%" alt="New Forest Configuration" />
+<br /><br />
+
+Set the <b>Forest Functional Level</b> and <b>Domain Functional Level</b> to <b>Windows Server 2016</b> or higher. Configure a <b>DSRM password</b>, then click <i><b>Next</b></i>.
+<br /><br />
+<img src="REPLACE_WITH_DSRM_SCREENSHOT" height="70%" width="70%" alt="DSRM Password" />
+<br /><br />
+
+Accept the default DNS delegation warning and click <i><b>Next</b></i>.
+<br /><br />
+<img src="REPLACE_WITH_DNS_WARNING_SCREENSHOT" height="70%" width="70%" alt="DNS Warning" />
+<br /><br />
+
+Leave default database, log, and SYSVOL paths unless customization is required. Click <i><b>Next</b></i>.
+<br /><br />
+<img src="REPLACE_WITH_PATHS_SCREENSHOT" height="70%" width="70%" alt="AD Paths" />
+<br /><br />
+
+Review the configuration summary. Optionally export the configuration script. Click <i><b>Install</b></i> to begin promotion.
+<br /><br />
+<img src="REPLACE_WITH_PREREQUISITES_SCREENSHOT" height="70%" width="70%" alt="Prerequisites Check" />
+<br /><br />
+
+The server will automatically reboot after promotion completes.
+
+<h2>Post-Installation Verification</h2>
+
  <br />
  
 
