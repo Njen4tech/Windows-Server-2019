@@ -90,14 +90,13 @@ The setup is complete! If you have a license, please add it at this prompt.
  <br />
 
 
-
 <br />
 <h3>Initial Setup</h3>  <br/>
 After the installation is successful.
 <br />
 <br />
 <br />
-Start the Vmware application from your Desktop:  <br/>
+Start the VMware application from your Desktop:  <br/>
 <img src="https://github.com/user-attachments/assets/45578b06-2aae-4694-ba98-236d09497dad" height="30%" width="30%" alt=
  "Desktops" />
 <br />
@@ -195,6 +194,119 @@ The server will automatically reboot after promotion completes.
 
 <h2>Post-Installation Verification</h2>
 
+Confirm the domain structure is visible and accessible.
+
+<br />
+
+<img src="REPLACE_WITH_ADUC_CONSOLE_SCREENSHOT" height="70%" width="70%" alt="Active Directory Users and Computers Console" />
+<br /><br />
+
+<h3>Organizational Units and Users</h3>
+
+Organizational Units (OUs) and user objects were created to simulate a basic enterprise environment.
+
+### Confirmed Actions
+
+- Organizational Units created (e.g., IT, HR, Users, Computers)
+- Domain user accounts created
+- Objects placed in correct OUs
+
+<br />
+
+<img src="REPLACE_WITH_OU_STRUCTURE_SCREENSHOT" height="70%" width="70%" alt="Organizational Unit Structure" />
+<br /><br />
+
+<img src="REPLACE_WITH_USER_CREATION_SCREENSHOT" height="70%" width="70%" alt="New Domain User Creation" />
+<br /><br />
+
+<h2>Client Machine Domain Join</h2>
+
+A Windows 10 / Windows 11 client virtual machine was joined to the Active Directory domain.
+
+### Steps Performed
+
+- Client VM connected to the same virtual network as the Domain Controller
+- Client DNS manually set to the Domain Controller’s IP address
+- Domain join initiated via System Properties
+- Client restarted after successful domain join
+
+<br />
+
+<img src="REPLACE_WITH_CLIENT_DNS_CONFIGURATION" height="70%" width="70%" alt="Client DNS Configuration" />
+<br /><br />
+
+<img src="REPLACE_WITH_DOMAIN_JOIN_DIALOG" height="70%" width="70%" alt="Domain Join Dialog" />
+<br /><br />
+
+<img src="REPLACE_WITH_DOMAIN_JOIN_SUCCESS" height="70%" width="70%" alt="Domain Join Successful" />
+<br /><br />
+
+<h2>Post-Lab Expansion and Validation</h2>
+
+<h3>Step 1: Create Organizational Units (OUs)</h3>
+
+Open <b>Active Directory Users and Computers</b>. Create a logical OU structure to simulate an enterprise environment. Recommended OUs include <b>Servers</b>, <b>Workstations</b>, <b>Users</b>, and <b>Admins</b>. This structure will be used later for Group Policy scoping and delegation.
+
+<p align="center">
+<img src="REPLACE_WITH_CREATE_OU_SCREENSHOT" height="70%" width="70%" alt="Create Organizational Units" />
+</p>
+
+<h3>Step 2: Create Domain Users and Security Groups</h3>
+
+Within the <b>Users</b> OU, create standard domain user accounts. Create security groups such as <b>IT_Admins</b>, <b>HR_Users</b>, or <b>Standard_Users</b>, then assign users to the appropriate groups to demonstrate role-based access control.
+
+<p align="center">
+<img src="REPLACE_WITH_CREATE_USER_AND_GROUP_SCREENSHOT" height="70%" width="70%" alt="Create Users and Groups" />
+</p>
+
+<h3>Step 3: Join a Client Machine to the Domain</h3>
+
+Ensure the Windows 10/11 client VM is using the same virtual network as the Domain Controller and that its DNS is pointed to the DC’s IP address. Join the client to the domain and reboot when prompted.
+
+<p align="center">
+<img src="REPLACE_WITH_DOMAIN_JOIN_SCREENSHOT" height="70%" width="70%" alt="Domain Join" />
+</p>
+
+<h3>Step 4: Verify Domain Authentication</h3>
+
+Log in to the client machine using a newly created domain user account. Successful login confirms proper authentication between the client and the Domain Controller.
+
+<p align="center">
+<img src="REPLACE_WITH_DOMAIN_LOGIN_SCREENSHOT" height="70%" width="70%" alt="Domain User Login" />
+</p>
+
+<h3>Step 5: Verify DNS and AD Health</h3>
+
+Open <b>DNS Manager</b> on the Domain Controller and confirm that forward and reverse lookup zones exist. Use <b>nslookup</b> or <b>ping</b> from the client to verify name resolution.
+
+<p align="center">
+<img src="REPLACE_WITH_DNS_VERIFICATION_SCREENSHOT" height="70%" width="70%" alt="DNS Verification" />
+</p>
+
+<h3>Step 6: Create and Link Group Policy Objects (GPOs)</h3>
+
+Open <b>Group Policy Management</b>. Create GPOs for password policies, account lockout policies, or desktop restrictions. Link the GPOs to the appropriate OUs created earlier.
+
+<p align="center">
+<img src="REPLACE_WITH_GPO_CREATION_SCREENSHOT" height="70%" width="70%" alt="Group Policy Management" />
+</p>
+
+<h3>Step 7: Validate Group Policy Application</h3>
+
+On the client machine, run <b>gpupdate /force</b> followed by <b>gpresult /r</b> to confirm that Group Policies are successfully applied.
+
+<p align="center">
+<img src="REPLACE_WITH_GPRESULT_SCREENSHOT" height="70%" width="70%" alt="Group Policy Results" />
+</p>
+
+<h3>Step 8: Backup and Document the Environment</h3>
+
+Install <b>Windows Server Backup</b> and perform a <b>System State Backup</b> of the Domain Controller. Finalize documentation by capturing screenshots, recording configurations, and outlining future expansion plans such as adding DHCP, File Services, or a second Domain Controller.
+
+<p align="center">
+<img src="REPLACE_WITH_BACKUP_AND_DOCUMENTATION_SCREENSHOT" height="70%" width="70%" alt="Backup and Documentation" />
+ 
+</p>
  <br />
  
 
