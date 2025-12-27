@@ -118,196 +118,150 @@ This will launch VMware Workstation Pro, you are immediately prompted to enter a
 
 Log in to Windows Server 2019 using the local <b>Administrator</b> account. Once logged in, <b>Server Manager</b> will launch automatically.
 <br /><br />
-<img src="REPLACE_WITH_SERVER_MANAGER_DASHBOARD_SCREENSHOT" height="70%" width="70%" alt="Server Manager Dashboard" />
+
+<img src="https://github.com/user-attachments/assets/99015d54-e091-4448-9591-cb3dba740487" width="70%" />
+
+<br /><br />
+Click <b>Add Roles and Features</b> from the Server Manager dashboard.
 <br /><br />
 
-Click <b>Add Roles and Features</b> from the Server Manager Dashboard. This launches the Add Roles and Features Wizard.
+<img src="https://github.com/user-attachments/assets/81e182ac-4f91-4d70-b64d-3bd87b6dfe45" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_ADD_ROLES_WIZARD_SCREENSHOT" height="70%" width="70%" alt="Add Roles and Features Wizard" />
+On the <b>Before You Begin</b> screen, review the checklist and click <b>Next</b>.
 <br /><br />
 
-On the <b>Before You Begin</b> screen, review the information and click <i><b>Next</b></i>.
+<img src="https://github.com/user-attachments/assets/fe11faf8-34f7-4bc3-87c3-f3f40b723fc9" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_BEFORE_YOU_BEGIN_SCREENSHOT" height="70%" width="70%" alt="Before You Begin" />
+Select <b>Role-based or feature-based installation</b>.
 <br /><br />
 
-Select <b>Role-based or feature-based installation</b>. This option allows you to install Active Directory on the local server. Click <i><b>Next</b></i>.
+<img src="https://github.com/user-attachments/assets/3eb3f987-17a4-4230-a751-2334b2dc14b8" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_ROLE_BASED_SCREENSHOT" height="70%" width="70%" alt="Role-based Installation" />
+Select the local server from the server pool.
 <br /><br />
 
-Choose the local server from the server pool and click <i><b>Next</b></i>.
+<img src="https://github.com/user-attachments/assets/9b701663-f4c8-4dc4-b3ff-7efe7720a1d9" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_SERVER_SELECTION_SCREENSHOT" height="70%" width="70%" alt="Server Selection" />
+Check <b>Active Directory Domain Services</b> and add required features.
 <br /><br />
 
-On the <b>Server Roles</b> page, check <b>Active Directory Domain Services</b>. When prompted, click <b>Add Features</b>, then click <i><b>Next</b></i>.
+<img src="https://github.com/user-attachments/assets/5b1ce9f4-17ae-48cc-996a-ce57d5608c9e" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_ADDS_SELECTION_SCREENSHOT" height="70%" width="70%" alt="AD DS Role Selection" />
+Review the AD DS information screen.
 <br /><br />
 
-Proceed through the <b>Features</b> and <b>AD DS</b> information screens by clicking <i><b>Next</b></i>.
+<img src="https://github.com/user-attachments/assets/64be78e0-7e80-4ece-9176-ac02c0d4ada8" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_ADDS_INFO_SCREENSHOT" height="70%" width="70%" alt="AD DS Information" />
+Confirm selections and install AD DS.
 <br /><br />
 
-On the <b>Confirmation</b> screen, verify your selections and click <i><b>Install</b></i>. Wait for the role installation to complete.
-<br /><br />
-<img src="REPLACE_WITH_ADDS_INSTALL_SCREENSHOT" height="70%" width="70%" alt="AD DS Installing" />
-<br /><br />
-
-Once installation finishes, click <b>Close</b>.
+<img src="https://github.com/user-attachments/assets/ddde4355-5562-45f3-9c14-75694d384d9d" width="70%" />
 
 <h3>Promote Server to Domain Controller</h3>
 
-After AD DS installation, a notification flag will appear in Server Manager. Click the flag and select <b>Promote this server to a domain controller</b>.
-<br /><br />
-<img src="REPLACE_WITH_PROMOTION_NOTIFICATION_SCREENSHOT" height="70%" width="70%" alt="Promote to Domain Controller" />
+Click the notification flag and select <b>Promote this server to a domain controller</b>.
 <br /><br />
 
-Select <b>Add a new forest</b>, then enter a root domain name (example: <b>lab.local</b>). Click <i><b>Next</b></i>.
+<img src="https://github.com/user-attachments/assets/31aa3ad4-d0ca-4c68-9ae3-c56c7116e545" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_NEW_FOREST_SCREENSHOT" height="70%" width="70%" alt="New Forest Configuration" />
+Select <b>Add a new forest</b> and enter the root domain name.
 <br /><br />
 
-Set the <b>Forest Functional Level</b> and <b>Domain Functional Level</b> to <b>Windows Server 2016</b> or higher. Configure a <b>DSRM password</b>, then click <i><b>Next</b></i>.
+<img src="https://github.com/user-attachments/assets/adcafef0-1505-4b28-a63a-2fa55b5ad10c" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_DSRM_SCREENSHOT" height="70%" width="70%" alt="DSRM Password" />
+Set forest and domain functional levels and configure the <b>DSRM password</b>.
 <br /><br />
 
-Accept the default DNS delegation warning and click <i><b>Next</b></i>.
+<img src="https://github.com/user-attachments/assets/4a5c51b4-7b71-48a4-92aa-2bd330c6c1f3" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_DNS_WARNING_SCREENSHOT" height="70%" width="70%" alt="DNS Warning" />
+Acknowledge the DNS delegation warning.
 <br /><br />
 
-Leave default database, log, and SYSVOL paths unless customization is required. Click <i><b>Next</b></i>.
+<img src="https://github.com/user-attachments/assets/a984c6d6-18e3-4d87-843f-09a59848cfa3" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_PATHS_SCREENSHOT" height="70%" width="70%" alt="AD Paths" />
+Accept default database, log, and SYSVOL paths.
 <br /><br />
 
-Review the configuration summary. Optionally export the configuration script. Click <i><b>Install</b></i> to begin promotion.
+<img src="https://github.com/user-attachments/assets/74b45740-0060-4f18-afa9-9c523659135c" width="70%" />
+
 <br /><br />
-<img src="REPLACE_WITH_PREREQUISITES_SCREENSHOT" height="70%" width="70%" alt="Prerequisites Check" />
+Review prerequisites and install.
 <br /><br />
 
-The server will automatically reboot after promotion completes.
+<img src="https://github.com/user-attachments/assets/58faa33f-41a9-440a-a4c4-b9f49a3859bb" width="70%" />
+
+<br /><br />
+The server automatically reboots after promotion.
+<br /><br />
+
+<img src="https://github.com/user-attachments/assets/2c91cf38-d0ca-4724-b52f-0a854401da8f" width="70%" />
 
 <h2>Post-Installation Verification</h2>
 
-Confirm the domain structure is visible and accessible.
-
-<br />
-
-<img src="REPLACE_WITH_ADUC_CONSOLE_SCREENSHOT" height="70%" width="70%" alt="Active Directory Users and Computers Console" />
+Log in using the domain Administrator account.
 <br /><br />
+
+<img src="https://github.com/user-attachments/assets/a5e8cdaf-8be3-4fa7-9405-3291279e1f0f" width="40%" />
+
+<br /><br />
+Verify Active Directory Users and Computers opens successfully.
+<br /><br />
+
+<img src="https://github.com/user-attachments/assets/40d5a4dd-f0e7-488d-8391-9b705401c2d7" width="70%" />
 
 <h3>Organizational Units and Users</h3>
 
-Organizational Units (OUs) and user objects were created to simulate a basic enterprise environment.
-
-### Confirmed Actions
-
-- Organizational Units created (e.g., IT, HR, Users, Computers)
-- Domain user accounts created
-- Objects placed in correct OUs
-
-<br />
-
-<img src="REPLACE_WITH_OU_STRUCTURE_SCREENSHOT" height="70%" width="70%" alt="Organizational Unit Structure" />
+Create Organizational Units.
 <br /><br />
 
-<img src="REPLACE_WITH_USER_CREATION_SCREENSHOT" height="70%" width="70%" alt="New Domain User Creation" />
+<img src="https://github.com/user-attachments/assets/902844b7-e6bd-4d9e-9e96-e4ab20498792" width="70%" />
+
 <br /><br />
+Create domain users and verify properties.
+<br /><br />
+
+<img src="https://github.com/user-attachments/assets/4589cda1-fb84-4469-aa34-bd22b0af9832" width="70%" />
 
 <h2>Client Machine Domain Join</h2>
 
-A Windows 10 / Windows 11 client virtual machine was joined to the Active Directory domain.
-
-### Steps Performed
-
-- Client VM connected to the same virtual network as the Domain Controller
-- Client DNS manually set to the Domain Controller’s IP address
-- Domain join initiated via System Properties
-- Client restarted after successful domain join
-
-<br />
-
-<img src="REPLACE_WITH_CLIENT_DNS_CONFIGURATION" height="70%" width="70%" alt="Client DNS Configuration" />
+Configure client DNS to point to the Domain Controller.
 <br /><br />
 
-<img src="REPLACE_WITH_DOMAIN_JOIN_DIALOG" height="70%" width="70%" alt="Domain Join Dialog" />
+<img src="https://github.com/user-attachments/assets/00de1334-db51-47ac-aa70-a5d28fe211fa" width="70%" />
+
+<br /><br />
+Join the client to the domain via System Properties.
 <br /><br />
 
-<img src="REPLACE_WITH_DOMAIN_JOIN_SUCCESS" height="70%" width="70%" alt="Domain Join Successful" />
+<img src="https://github.com/user-attachments/assets/a86eac7f-6223-46af-a423-989be815a7df" width="70%" />
+
+<br /><br />
+Authenticate with domain credentials.
 <br /><br />
 
-<h2>Post-Lab Expansion and Validation</h2>
+<img src="https://github.com/user-attachments/assets/5fcc8fa1-0bf5-45f9-bb1d-5b1df1d9c84c" width="70%" />
 
-<h3>Step 1: Create Organizational Units (OUs)</h3>
+<br /><br />
+Confirm successful domain join.
+<br /><br />
 
-Open <b>Active Directory Users and Computers</b>. Create a logical OU structure to simulate an enterprise environment. Recommended OUs include <b>Servers</b>, <b>Workstations</b>, <b>Users</b>, and <b>Admins</b>. This structure will be used later for Group Policy scoping and delegation.
+<img src="https://github.com/user-attachments/assets/ece4c48d-6bdb-4a05-867d-fdaed7289878" width="70%" />
 
-<p align="center">
-<img src="REPLACE_WITH_CREATE_OU_SCREENSHOT" height="70%" width="70%" alt="Create Organizational Units" />
-</p>
+<br /><br />
+Log in using a domain user account.
+<br /><br />
 
-<h3>Step 2: Create Domain Users and Security Groups</h3>
+<img src="https://github.com/user-attachments/assets/c813a447-2c74-41e9-aafa-dd49be477f00" width="70%" />
 
-Within the <b>Users</b> OU, create standard domain user accounts. Create security groups such as <b>IT_Admins</b>, <b>HR_Users</b>, or <b>Standard_Users</b>, then assign users to the appropriate groups to demonstrate role-based access control.
-
-<p align="center">
-<img src="REPLACE_WITH_CREATE_USER_AND_GROUP_SCREENSHOT" height="70%" width="70%" alt="Create Users and Groups" />
-</p>
-
-<h3>Step 3: Join a Client Machine to the Domain</h3>
-
-Ensure the Windows 10/11 client VM is using the same virtual network as the Domain Controller and that its DNS is pointed to the DC’s IP address. Join the client to the domain and reboot when prompted.
-
-<p align="center">
-<img src="REPLACE_WITH_DOMAIN_JOIN_SCREENSHOT" height="70%" width="70%" alt="Domain Join" />
-</p>
-
-<h3>Step 4: Verify Domain Authentication</h3>
-
-Log in to the client machine using a newly created domain user account. Successful login confirms proper authentication between the client and the Domain Controller.
-
-<p align="center">
-<img src="REPLACE_WITH_DOMAIN_LOGIN_SCREENSHOT" height="70%" width="70%" alt="Domain User Login" />
-</p>
-
-<h3>Step 5: Verify DNS and AD Health</h3>
-
-Open <b>DNS Manager</b> on the Domain Controller and confirm that forward and reverse lookup zones exist. Use <b>nslookup</b> or <b>ping</b> from the client to verify name resolution.
-
-<p align="center">
-<img src="REPLACE_WITH_DNS_VERIFICATION_SCREENSHOT" height="70%" width="70%" alt="DNS Verification" />
-</p>
-
-<h3>Step 6: Create and Link Group Policy Objects (GPOs)</h3>
-
-Open <b>Group Policy Management</b>. Create GPOs for password policies, account lockout policies, or desktop restrictions. Link the GPOs to the appropriate OUs created earlier.
-
-<p align="center">
-<img src="REPLACE_WITH_GPO_CREATION_SCREENSHOT" height="70%" width="70%" alt="Group Policy Management" />
-</p>
-
-<h3>Step 7: Validate Group Policy Application</h3>
-
-On the client machine, run <b>gpupdate /force</b> followed by <b>gpresult /r</b> to confirm that Group Policies are successfully applied.
-
-<p align="center">
-<img src="REPLACE_WITH_GPRESULT_SCREENSHOT" height="70%" width="70%" alt="Group Policy Results" />
-</p>
-
-<h3>Step 8: Backup and Document the Environment</h3>
-
-Install <b>Windows Server Backup</b> and perform a <b>System State Backup</b> of the Domain Controller. Finalize documentation by capturing screenshots, recording configurations, and outlining future expansion plans such as adding DHCP, File Services, or a second Domain Controller.
-
-<p align="center">
-<img src="REPLACE_WITH_BACKUP_AND_DOCUMENTATION_SCREENSHOT" height="70%" width="70%" alt="Backup and Documentation" />
- 
-</p>
- <br />
- 
 
 </p>
