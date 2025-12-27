@@ -234,34 +234,64 @@ Create domain users and verify properties.
 
 <h2>Client Machine Domain Join</h2>
 
-Configure client DNS to point to the Domain Controller.
-<br /><br />
+<h2>DNS Verification and Domain Health</h2>
 
-<img src="https://github.com/user-attachments/assets/00de1334-db51-47ac-aa70-a5d28fe211fa" width="70%" />
+After the client successfully joins the domain, verify that DNS records were created correctly on the Domain Controller.
 
-<br /><br />
-Join the client to the domain via System Properties.
-<br /><br />
-
-<img src="https://github.com/user-attachments/assets/a86eac7f-6223-46af-a423-989be815a7df" width="70%" />
-
-<br /><br />
-Authenticate with domain credentials.
-<br /><br />
-
-<img src="https://github.com/user-attachments/assets/5fcc8fa1-0bf5-45f9-bb1d-5b1df1d9c84c" width="70%" />
+Open <b>DNS Manager</b> and confirm that:
+<ul>
+  <li>The forward lookup zone exists</li>
+  <li>The client machine appears as an A record</li>
+</ul>
 
 <br /><br />
-Confirm successful domain join.
+<img src="https://github.com/user-attachments/assets/9a30a14b-4954-44a6-a374-ab6b1b4547d2" width="70%" />
+
+<h2>Group Policy Management</h2>
+
+Open <b>Group Policy Management</b> from Server Manager or Administrative Tools. Verify that the default domain policies are present.
+
 <br /><br />
+<img src="https://github.com/user-attachments/assets/dd6cb5c1-b576-4539-b8d4-ca44ad8be412" width="80%" />
 
-<img src="https://github.com/user-attachments/assets/ece4c48d-6bdb-4a05-867d-fdaed7289878" width="70%" />
+<h3>Create and Link a Group Policy Object (GPO)</h3>
+
+Create a new Group Policy Object to demonstrate centralized policy management. This GPO can include settings such as:
+<ul>
+  <li>Password policies</li>
+  <li>Desktop restrictions</li>
+  <li>Security hardening</li>
+</ul>
+
+Link the GPO to the appropriate Organizational Unit.
 
 <br /><br />
-Log in using a domain user account.
+<img src="https://github.com/user-attachments/assets/3ac88da4-0b4c-4aa7-a415-8446797abee7" width="70%" />
+
+<h3>Apply Group Policy on Client Machine</h3>
+
+On the client machine, force a policy refresh by running:
+
+<pre>gpupdate /force</pre>
+
+This ensures that the newly created Group Policy Object is applied immediately.
+
 <br /><br />
+<img src="https://github.com/user-attachments/assets/8ef48793-e8bf-4a65-ade9-0dfa3f65712f" width="70%" />
 
-<img src="https://github.com/user-attachments/assets/c813a447-2c74-41e9-aafa-dd49be477f00" width="70%" />
+<h3>Validate Group Policy Application</h3>
 
+Confirm that Group Policy was applied successfully by running:
+
+<pre>gpresult /r</pre>
+
+This command displays all applied policies and verifies proper communication between the client and the Domain Controller.
+
+<br /><br />
+<img src="https://github.com/user-attachments/assets/04fb1e2f-9e68-4951-9079-f824673fcc88" width="40%" />
+
+<h2>Lab Completion Summary</h2>
+
+At this stage, the Active Directory lab environment is fully functional and validated. The following components have been successfully implemented:
 
 </p>
