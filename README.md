@@ -113,10 +113,38 @@ This will launch VMware Workstation Pro, you are immediately prompted to enter a
  <img src="https://github.com/user-attachments/assets/9a2fd80d-a5dd-4623-84aa-98a646ea35a0" height="50%" width="50%" alt= 
 "Finished Configuration" />
 
+<h3>Network Configuration (Static IP & DNS)</h3>
+
+Before installing Active Directory Domain Services, the server network configuration must be updated. A static IP address is required to ensure consistent DNS resolution and domain stability.
+
+<br /><br />
+
+Open <b>Network and Sharing Center</b> → <b>Change adapter settings</b>.  
+Right-click the active network adapter and select <b>Properties</b>.  
+Select <b>Internet Protocol Version 4 (TCP/IPv4)</b> and click <b>Properties</b>.
+
+<br /><br />
+
+Configure the following:
+<ul>
+  <li>Assign a <b>static IP address</b></li>
+  <li>Set the <b>Preferred DNS server</b> to the server’s own IP address</li>
+</ul>
+
+This configuration ensures the Domain Controller can properly resolve and register DNS records.
+
+<br /><br />
+
+<img src="https://github.com/user-attachments/assets/3eb3f987-17a4-4230-a751-2334b2dc14b8"
+     height="70%" width="70%"
+     alt="Static IP and DNS Configuration" />
+
+<br /><br />
 
 <h2>Active Directory Domain Services Configuration</h2>
 
-Log in to Windows Server 2019 using the local <b>Administrator</b> account. Once logged in, <b>Server Manager</b> will launch automatically.
+A new virtual machine was created in VMware Workstation Pro using the Windows Server 2019 ISO. Hardware resources such as CPU, memory, and disk size were allocated based on lab requirements. The VM was configured to use a compatible virtual network adapter.
+
 <br /><br />
 
 <img src="https://github.com/user-attachments/assets/99015d54-e091-4448-9591-cb3dba740487" width="70%" />
