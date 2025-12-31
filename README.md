@@ -198,13 +198,20 @@ Confirm selections and install AD DS.
 <br /><br />
 
 <img width="1002" height="637" alt="13" src="https://github.com/user-attachments/assets/75cec4eb-8ba6-4b88-9bc2-024b1f7c8fbe" />
+<br /><br />
+<img width="1011" height="700" alt="14" src="https://github.com/user-attachments/assets/2ca60865-e96f-42d3-82fd-2ebc6c663a2a" />
+<br /><br />
+<img width="1012" height="692" alt="15" src="https://github.com/user-attachments/assets/5577a080-29cb-44c3-b9eb-7dc480a5505f" />
 
 <h3>Promote Server to Domain Controller</h3>
+
+<img width="1008" height="143" alt="16" src="https://github.com/user-attachments/assets/b65d48e6-bad7-4cc1-8189-a1d3039e6f93" />
 
 Click the notification flag and select <b>Promote this server to a domain controller</b>.
 <br /><br />
 
-<img src="" width="70%" />
+<img src="![Uploading 14.png…]()
+" width="70%" />
 
 <br /><br />
 Select <b>Add a new forest</b> and enter the root domain name.
