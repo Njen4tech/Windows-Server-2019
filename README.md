@@ -45,10 +45,10 @@ The Setup Wizard panel will appear, then click <I><b>Next</b></i>.
 Typical(rec) then click <I><b>Next</b></I>. 
 <br />
 <img src="https://github.com/user-attachments/assets/99910378-c61c-4e0a-becd-4770f81f5da3" height="70%" width="70%" alt=
-"End User Licenses Agreement"/>
+"End User License Agreement"/>
 <br /> 
 <br /> 
-Custom Setup Make sure that both Boxes are selected then proceed by <I><b>Next</b></I>.
+Custom Setup Make sure that both Boxes are selected, then proceed by <I><b>Next</b></I>.
 <br />
 <img src="https://github.com/user-attachments/assets/e546cb03-f72d-46e2-a060-2f8585919e73" height="70%" width="70%" alt=  
 "Custom Setup"/>
@@ -60,7 +60,7 @@ User Experience Settings will let you choose these options.
 "User Setup"/>
 <br />
 <br />
-Choose your application shortcut (option) then click <i><b>NEXT</b></i>. 
+Choose your application shortcut (option), then click <i><b>NEXT</b></i>. 
  <br />
 <img src="https://github.com/user-attachments/assets/faeaa2d2-0499-4d45-8a19-8bcee419567c" height="70%" width="70%" alt= 
 "Shortcuts" />
@@ -101,7 +101,7 @@ Start the VMware application from your Desktop:  <br/>
  "Desktops" />
 <br />
 <br />
-This will launch VMware Workstation Pro, you are immediately prompted to enter an active licensing key or continue without a license and proceed with a 30-day trial option. Click <i><b>Continue</b></i>.
+This will launch VMware Workstation Pro. You are immediately prompted to enter an active licensing key or continue without a license and proceed with a 30-day trial option. Click <i><b>Continue</b></i>.
 <br />
 <img src="https://github.com/user-attachments/assets/c15e8e88-669f-4ddb-a788-f1156c0ed8ec" height="50%" width="50%" alt=
  "License or Trial" />
@@ -147,49 +147,57 @@ A new virtual machine was created in VMware Workstation Pro using the Windows Se
 
 <br /><br />
 
-<img src="" width="70%" />
+<img width="786" height="602" alt="5" src="https://github.com/user-attachments/assets/40053442-2e76-4f38-ac1b-63ef976ef2cf" />
+
+<br /><br />
+
+<img width="1012" height="700" alt="Check IP  config Command prompt" src="https://github.com/user-attachments/assets/2ac30297-eec7-437f-ae2c-6ee4eb932d20" />
 
 <br /><br />
 Click <b>Add Roles and Features</b> from the Server Manager dashboard.
 <br /><br />
 
-<img src="" width="70%" />
+<img width="1007" height="755" alt="server mangaer dashboard" src="https://github.com/user-attachments/assets/8a2cc092-72c4-4373-b0b9-947d0bf6124c" />
 
-<br /><br />
 On the <b>Before You Begin</b> screen, review the checklist and click <b>Next</b>.
 <br /><br />
 
-<img src="" width="70%" />
+<img src="https://github.com/user-attachments/assets/d782457d-9c45-43e8-bce8-8f2c14a4f2df" />
+" width="70%" />
 
 <br /><br />
 Select <b>Role-based or feature-based installation</b>.
 <br /><br />
-
-<img src="" width="70%" />
-
+<img  src="https://github.com/user-attachments/assets/01d2e9d2-a212-4d10-a8c8-f6d5f02ca503" />
+ 
 <br /><br />
 Select the local server from the server pool.
 <br /><br />
 
-<img src="" width="70%" />
+<img src="https://github.com/user-attachments/assets/aa9a36f6-7d53-449d-9992-d4718cdcb1da" />
+ width="70%" />
 
 <br /><br />
 Check <b>Active Directory Domain Services</b> and add required features.
 <br /><br />
 
-<img src="" width="70%" />
+<img width="1013" height="635" alt="9" src="https://github.com/user-attachments/assets/d690e92d-aae2-4a9b-8c26-d18b0aab05e2" />
+" width="70%" />
 
 <br /><br />
 Review the AD DS information screen.
 <br /><br />
 
-<img src="" width="70%" />
+<img src="https://github.com/user-attachments/assets/3d96701b-c8c8-44dc-a0bc-eac2c63f5b93" />
 
 <br /><br />
+
+<img width="1012" height="642" alt="11" src="https://github.com/user-attachments/assets/cc261f95-7507-4108-aa3f-068c94f8f283" />
+
 Confirm selections and install AD DS.
 <br /><br />
 
-<img src="" width="70%" />
+<img width="1002" height="637" alt="13" src="https://github.com/user-attachments/assets/75cec4eb-8ba6-4b88-9bc2-024b1f7c8fbe" />
 
 <h3>Promote Server to Domain Controller</h3>
 
