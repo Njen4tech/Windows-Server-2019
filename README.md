@@ -254,10 +254,11 @@ The server automatically reboots after promotion.
 Log in using the domain Administrator account.
 <br /><br />
 
-<img src="" width="70%" />
+<img width="2015" height="645" alt="47" src="https://github.com/user-attachments/assets/108418ff-05e8-44f5-ac06-c09cacbb0d93" />
+
 
 <br /><br />
-Verify Active Directory Users and Computers opens successfully.
+Verify that Active Directory Users and Computers opens successfully.
 <br /><br />
 
 <img src="" width="70%" />
@@ -267,7 +268,8 @@ Verify Active Directory Users and Computers opens successfully.
 Create Organizational Units.
 <br /><br />
 
-<img src="" width="70%" />
+<img width="628" height="748" alt="26" src="https://github.com/user-attachments/assets/e859a755-0ce0-4196-ada3-44d69e870472" />
+
 
 <br /><br />
 Create domain users and verify properties.
