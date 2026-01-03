@@ -210,38 +210,38 @@ Confirm selections and install AD DS.
 Click the notification flag and select <b>Promote this server to a domain controller</b>.
 <br /><br />
 
-<img src="![Uploading 14.png…]()
-" width="70%" />
-
+<img width="1017" height="736" alt="17" src="https://github.com/user-attachments/assets/7e82e3ca-28f5-46a1-b801-88ead1a233c8" />
+<br /><br />
 <br /><br />
 Select <b>Add a new forest</b> and enter the root domain name.
 <br /><br />
-
-<img src="" width="70%" />
+<img width="1011" height="715" alt="18" src="https://github.com/user-attachments/assets/076ff3b0-f4d0-467a-9b0b-fec3f0afa1b0" />
 
 <br /><br />
+
 Set forest and domain functional levels and configure the <b>DSRM password</b>.
 <br /><br />
 
-<img src="" width="70%" />
+<img width="1008" height="723" alt="19" src="https://github.com/user-attachments/assets/57d56a40-a3ba-4511-aebc-081dbebbec5b" />
+
 
 <br /><br />
 Acknowledge the DNS delegation warning.
 <br /><br />
 
-<img src="" width="70%" />
+<img width="1008" height="723" alt="19" src="https://github.com/user-attachments/assets/50daf7fb-b979-4996-9954-18823dc5a6e7" />
+
 
 <br /><br />
 Accept default database, log, and SYSVOL paths.
 <br /><br />
 
-<img src="" width="70%" />
+<img width="1002" height="642" alt="20" src="https://github.com/user-attachments/assets/6c3c2835-5716-4da3-9c76-793fec2e51c2" />
 
 <br /><br />
 Review prerequisites and install.
 <br /><br />
-
-<img src="" width="70%" />
+<img width="1011" height="683" alt="21" src="https://github.com/user-attachments/assets/69aed358-45b9-49cb-a317-bfe0304e1291" />
 
 <br /><br />
 The server automatically reboots after promotion.
