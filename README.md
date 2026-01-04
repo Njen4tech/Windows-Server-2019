@@ -247,7 +247,7 @@ Review prerequisites and install.
 The server automatically reboots after promotion.
 <br /><br />
 
-<img src="" width="70%" />
+<img src="Missing" width="70%" />
 
 <h2>Post-Installation Verification</h2>
 
@@ -261,7 +261,7 @@ Log in using the domain Administrator account.
 Verify that Active Directory Users and Computers opens successfully.
 <br /><br />
 
-<img src="" width="70%" />
+<img src="Missing" width="70%" />
 
 <h3>Organizational Units and Users</h3>
 
@@ -275,11 +275,11 @@ Create Organizational Units.
 Create domain users and verify properties.
 <br /><br />
 
-<img src="" width="70%" />
+<img src="Missing" width="70%" />
 
 <h2>Client Machine Domain Join</h2>
 
-<img src="" width="70%" />
+<img src="Missing" width="70%" />
 
 <h2>DNS Verification and Domain Health</h2>
 
@@ -293,7 +293,7 @@ Open <b>DNS Manager</b> and confirm that:
 
 <br /><br />
 
-<img src="" width="70%" />
+<img src="Missing" width="70%" />
 
 <h2>Group Policy Management</h2>
 
@@ -301,7 +301,7 @@ Open <b>Group Policy Management</b> from Server Manager or Administrative Tools.
 
 <br /><br />
 
-<img src="" width="70%" />
+<img src="Missing" width="70%" />
 
 <h3>Create and Link a Group Policy Object (GPO)</h3>
 
@@ -309,7 +309,7 @@ Create a new Group Policy Object to demonstrate centralized policy management.
 
 <br /><br />
 
-<img src="" width="70%" />
+<img src="Missing" width="70%" />
 
 <h3>Apply Group Policy on Client Machine</h3>
 
@@ -319,7 +319,7 @@ On the client machine, force a policy refresh by running:
 
 <br /><br />
 
-<img src="" width="70%" />
+<img src="Missing" width="70%" />
 
 <h3>Validate Group Policy Application</h3>
 
@@ -329,10 +329,12 @@ Confirm that Group Policy was applied successfully by running:
 
 <br /><br />
 
-<img src="" width="70%" />
+<img src="MISSING" width="70%" />
 
 <h2>Lab Completion Summary</h2>
 
 At this stage, the Active Directory lab environment is fully functional and validated.
+
+<img width="303" height="145" alt="50" src="https://github.com/user-attachments/assets/b187d15a-3010-4c7b-8d91-ae0106c0bf34" />
 
 </p>
