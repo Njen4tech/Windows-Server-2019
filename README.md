@@ -247,8 +247,6 @@ Review prerequisites and install.
 The server automatically reboots after promotion.
 <br /><br />
 
-<img src="Missing" width="70%" />
-
 <h2>Post-Installation Verification</h2>
 
 Log in using the domain Administrator account.
@@ -275,14 +273,18 @@ Create Organizational Units.
 Create domain users and verify properties.
 <br /><br />
 
-<img src="Missing" width="70%" />
+<img width="1017" height="760" alt="23" src="https://github.com/user-attachments/assets/29e506e1-cc7f-43de-9f17-e03db2727b9b" />
+
 
 <h2>Client Machine Domain Join</h2>
 
-<img src="Missing" width="70%" />
+
+<img width="1006" height="763" alt="24" src="https://github.com/user-attachments/assets/5d2b697f-ca22-4073-9ad6-e6dfb77216ed" />
+
 
 <h2>DNS Verification and Domain Health</h2>
 
+<img width="1022" height="728" alt="22" src="https://github.com/user-attachments/assets/93b14052-05c3-46a7-a9f0-3657a78281b6" />
 After the client successfully joins the domain, verify that DNS records were created correctly on the Domain Controller.
 
 Open <b>DNS Manager</b> and confirm that:
