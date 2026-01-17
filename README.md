@@ -259,7 +259,7 @@ Log in using the domain Administrator account.
 Verify that Active Directory Users and Computers opens successfully.
 <br /><br />
 
-<img src="Missing" width="70%" />
+<img width="1022" height="728" alt="22" src="https://github.com/user-attachments/assets/3deb43f5-3bd4-4618-86e1-920ba0dba3b9" />
 
 <h3>Organizational Units and Users</h3>
 
