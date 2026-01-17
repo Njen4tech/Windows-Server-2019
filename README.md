@@ -259,7 +259,7 @@ Log in using the domain Administrator account.
 Verify that Active Directory Users and Computers opens successfully.
 <br /><br />
 
-<img width="1022" height="728" alt="22" src="https://github.com/user-attachments/assets/3deb43f5-3bd4-4618-86e1-920ba0dba3b9" />
+<img width="1017" height="492" alt="423" src="https://github.com/user-attachments/assets/884e6dd9-b416-45f6-be14-60b9c8f0c1e1" />
 
 <h3>Organizational Units and Users</h3>
 
@@ -284,7 +284,7 @@ Create domain users and verify properties.
 
 <h2>DNS Verification and Domain Health</h2>
 
-<img width="1022" height="728" alt="22" src="https://github.com/user-attachments/assets/93b14052-05c3-46a7-a9f0-3657a78281b6" />
+
 After the client successfully joins the domain, verify that DNS records were created correctly on the Domain Controller.
 
 Open <b>DNS Manager</b> and confirm that:
@@ -303,7 +303,8 @@ Open <b>Group Policy Management</b> from Server Manager or Administrative Tools.
 
 <br /><br />
 
-<img src="Missing" width="70%" />
+<img width="1017" height="492" alt="423" src="https://github.com/user-attachments/assets/9c032974-302f-41a3-845c-a5f2aa825c39" />
+
 
 <h3>Create and Link a Group Policy Object (GPO)</h3>
 
