@@ -229,9 +229,6 @@ Set forest and domain functional levels and configure the <b>DSRM password</b>.
 Acknowledge the DNS delegation warning.
 <br /><br />
 
-<img width="1008" height="723" alt="19" src="https://github.com/user-attachments/assets/50daf7fb-b979-4996-9954-18823dc5a6e7" />
-
-
 <br /><br />
 Accept default database, log, and SYSVOL paths.
 <br /><br />
@@ -254,7 +251,8 @@ Log in using the domain Administrator account.
 
 <img width="2015" height="645" alt="47" src="https://github.com/user-attachments/assets/108418ff-05e8-44f5-ac06-c09cacbb0d93" />
 
-
+<br /><br />
+Create a new 
 <br /><br />
 Verify that Active Directory Users and Computers opens successfully.
 <br /><br />
@@ -270,6 +268,8 @@ Create Organizational Units.
 
 
 <br /><br />
+
+
 Create domain users and verify properties.
 <br /><br />
 
@@ -278,8 +278,6 @@ Create domain users and verify properties.
 
 <h2>Client Machine Domain Join</h2>
 
-
-<img width="1006" height="763" alt="24" src="https://github.com/user-attachments/assets/5d2b697f-ca22-4073-9ad6-e6dfb77216ed" />
 
 
 <h2>DNS Verification and Domain Health</h2>
