@@ -269,7 +269,6 @@ Create Organizational Units.
 
 <br /><br />
 
-
 Create domain users and verify properties.
 <br /><br />
 
@@ -302,7 +301,6 @@ Open <b>Group Policy Management</b> from Server Manager or Administrative Tools.
 <br /><br />
 
 <img width="1017" height="492" alt="423" src="https://github.com/user-attachments/assets/9c032974-302f-41a3-845c-a5f2aa825c39" />
-
 
 <h3>Create and Link a Group Policy Object (GPO)</h3>
 
