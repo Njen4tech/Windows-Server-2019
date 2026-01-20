@@ -277,8 +277,6 @@ Create domain users and verify properties.
 
 <h2>Client Machine Domain Join</h2>
 
-
-
 <h2>DNS Verification and Domain Health</h2>
 
 
