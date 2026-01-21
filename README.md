@@ -273,12 +273,14 @@ Create domain users and verify properties.
 <br /><br />
 
 <img width="1017" height="760" alt="23" src="https://github.com/user-attachments/assets/29e506e1-cc7f-43de-9f17-e03db2727b9b" />
+<br /><br />
 
+<img width="1006" height="763" alt="24" src="https://github.com/user-attachments/assets/12905965-53db-4dca-ab75-96aaff899eb2" />
 
-<h2>Client Machine Domain Join</h2>
 
 <h2>DNS Verification and Domain Health</h2>
 
+<br /><br />
 
 After the client successfully joins the domain, verify that DNS records were created correctly on the Domain Controller.
 
