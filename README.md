@@ -308,8 +308,6 @@ Create a new Group Policy Object to demonstrate centralized policy management.
 
 <br /><br />
 
-<img src="Missing" width="70%" />
-
 <h3>Apply Group Policy on Client Machine</h3>
 
 On the client machine, force a policy refresh by running:
