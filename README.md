@@ -296,6 +296,8 @@ Open <b>DNS Manager</b> and confirm that:
 
 <h2>Group Policy Management</h2>
 
+<img width="852" height="610" alt="gp managment " src="https://github.com/user-attachments/assets/40e93fb1-9ec1-4ac3-81e4-86741040f51e" />
+
 Open <b>Group Policy Management</b> from Server Manager or Administrative Tools. Verify that the default domain policies are present.
 
 <br /><br />
