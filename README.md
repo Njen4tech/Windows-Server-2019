@@ -165,8 +165,10 @@ Configure a static IP before installing Active Directory.
 
 <h3>Step 9: Client Domain Join</h3>
 
-<p>Join client machine to the domain.</p>
+<p>Join the client machine to the domain.</p>
 <img src="https://github.com/user-attachments/assets/12905965-53db-4dca-ab75-96aaff899eb2" width="70%" />
+
+<img width="431" height="558" alt="Screenshot 2026-01-06 222020" src="https://github.com/user-attachments/assets/959094ad-a91e-4a9b-85c9-9308e77cc69b" width="70%" />
 
 <p>Domain join successful.</p>
 <img src="https://github.com/user-attachments/assets/944a1a3e-30a0-4c57-bd77-cdfed4937650" width="70%" />
