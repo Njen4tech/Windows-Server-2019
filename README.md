@@ -136,11 +136,10 @@ Verify **Active Directory Users and Computers** opens correctly.
 
 ---
 
-### Step 8: Organizational Units and Users
+### Step 8: Organizationals and Users
+Create Organizational Units.  
 <img width="628" height="748" alt="26" src="https://github.com/user-attachments/assets/11de5f99-7b4c-4bb2-a8df-e94f322c42b7" width="60%" />
 
-Create Organizational Units.  
-<img src="https://github.com/user-attachments/assets/e859a755-0ce0-4196-ada3-44d69e860472" width="60%" />
 
 Create domain users.  
 <img src="https://github.com/user-attachments/assets/29e506e1-cc7f-43de-9f17-e03db2727b9b" width="60%" />
