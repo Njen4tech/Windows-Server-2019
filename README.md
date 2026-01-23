@@ -132,7 +132,7 @@ Configure a static IP before installing Active Directory.
 <p>Select <b>Promote this server to a domain controller</b>.</p>
 <img src="https://github.com/user-attachments/assets/7e82e3ca-28f5-46a1-b801-88ead1a233c8" width="70%" />
 
-<p>Add a new forest and define domain name.</p>
+<p>Add a new forest and define a domain name.</p>
 <img src="https://github.com/user-attachments/assets/076ff3b0-f4d0-467a-9b0b-fec3f0afa1b0" width="70%" />
 
 <p>Configure functional levels and DSRM password.</p>
