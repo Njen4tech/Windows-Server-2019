@@ -168,14 +168,19 @@ Verify default policies.
 ---
 
 ### Step 11: DHCP Server Configuration
-<img width="718" height="621" alt="45" src="https://github.com/user-attachments/assets/4427caea-7f4b-4979-9b38-fd3938e57cf5" />
-
+<img width="718" height="621" alt="45" src="https://github.com/user-attachments/assets/4427caea-7f4b-4979-9b38-fd3938e57cf5" width="60%" />
+<br/><br/>
 Configure DHCP to automatically assign IP addresses to domain clients.
 
 - Install **DHCP Server** role
 - Authorize DHCP in Active Directory
 - Create an IPv4 scope
 - Define IP range, subnet mask, exclusions, and lease duration
+<br/>
+<img width="712" height="632" alt="44" src="https://github.com/user-attachments/assets/ca613825-f2ab-44d2-88f8-48d7c105a289" width="60%" />
+<br/><br/>
+<img width="1017" height="693" alt="43" src="https://github.com/user-attachments/assets/a33facfa-68d5-4914-a7a7-c5d6d3243ff7" width="40%" />
+<br/><br/>
 
 ---
 
@@ -185,6 +190,16 @@ Configure **DHCP Option 003 – Router**.
 
 - Specify the router or virtual gateway IP
 - Ensures clients can reach external networks
+<img width="710" height="625" alt="42" src="https://github.com/user-attachments/assets/e8036fb1-4ce8-4eb5-b957-7e114cc3f993" width="40%" />
+<br/><br/>
+<img width="888" height="625" alt="41" src="https://github.com/user-attachments/assets/36f74508-31fb-458a-84c4-7920628bb070" width="40%" />
+<br/><br/>
+<img width="1018" height="681" alt="40" src="https://github.com/user-attachments/assets/82f30dc5-1947-40bd-b7a4-c2f38699ad10" width="40%" />
+<br/><br/>
+<img width="1012" height="693" alt="39" src="https://github.com/user-attachments/assets/67968193-9b7b-4c2d-a136-2f8e4775c346" width="40%" />
+<br/><br/>
+<img width="1021" height="710" alt="38" src="https://github.com/user-attachments/assets/5488c742-f3b2-43f6-9058-b3b4c991a535" width="40%" />
+
 
 ---
 
