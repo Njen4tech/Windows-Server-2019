@@ -210,6 +210,19 @@ Install **WINS Server** for legacy NetBIOS support.
 - Configure WINS role
 - Set DHCP Options 044 and 046
 - Used only for legacy compatibility
+<img width="1018" height="708" alt="37" src="https://github.com/user-attachments/assets/71758bda-958f-4e91-b5e7-7305b2efbbc7" />
+<br/><br/>
+<img width="1045" height="746" alt="Screenshot 2026-01-25 024508" src="https://github.com/user-attachments/assets/797b7ef5-5f5d-4305-a5c7-1dcf1bf201b7" />
+<br/><br/>
+<img width="1047" height="745" alt="Screenshot 2026-01-25 024416" src="https://github.com/user-attachments/assets/2b1c90d2-e323-48cf-ac2a-7d8acd58671d" />
+<img width="1013" height="720" alt="Screenshot 2026-01-25 024242" src="https://github.com/user-attachments/assets/f56dc0f9-4522-4d70-a967-17b6ba6c4039" /> 
+<br/><br/>
+<img width="1041" height="777" alt="Screenshot 2026-01-25 024542" src="https://github.com/user-attachments/assets/da0b199d-7ba0-4c95-b3a2-23163ba07177" />
+
+
+<br/><br/>
+
+
 
 ---
 
