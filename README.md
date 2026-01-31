@@ -32,7 +32,18 @@ Download the ISO from Microsoft:
 
 ### Step 2: Virtual Machine Creation & OS Installation
 
-Launch VMware Workstation Pro and begin the setup wizard.
+- Launch VMware Workstation Pro and begin the setup wizard.
+
+- Create a new virtual machine using the Typical (Recommended) configuration
+
+- Select the Windows Server 2019 ISO as the installation media
+
+- Configure hardware resources (CPU, RAM, storage)
+
+- Complete the Windows Server installation wizard
+
+- (Optional) Enter a license key or continue using the evaluation version
+
 
 Click **Next** to proceed.  
 <img src="https://github.com/user-attachments/assets/82476b3d-1915-4f16-bfec-8e1aa012ddbe" width="60%" />
@@ -68,7 +79,7 @@ Installation completed.
 Launch VMware Workstation Pro.  
 <img src="https://github.com/user-attachments/assets/45578b06-2aae-4694-ba98-236d09497dad" width="60%" />
 
-Continue using trial or enter license.  
+Continue using the trial or enter a license.  
 <img src="https://github.com/user-attachments/assets/c15e8e88-669f-4ddb-a788-f1156c0ed8ec" width="60%" />
 
 Finish initial setup.  
@@ -79,15 +90,13 @@ Finish initial setup.
 ### Step 4: Network Configuration (Static IP & DNS)
 
 Before installing Active Directory, configure a static IP.
+<img src="https://github.com/user-attachments/assets/3eb3f987-17a4-4230-a751-2334b2dc14b8" width="60%" />
 
 - Open **Network and Sharing Center**
 - Change adapter settings
 - Edit IPv4 properties
 - Assign a static IP
 - Set Preferred DNS to the server’s IP
-
-<img src="https://github.com/user-attachments/assets/3eb3f987-17a4-4230-a751-2334b2dc14b8" width="60%" />
-
 ---
 
 ### Step 5: Install Active Directory Domain Services (AD DS)
@@ -148,12 +157,16 @@ Create domain users.
 
 ### Step 9: Client Domain Join
 
+
+
 Join the client machine to the domain.  
 <img src="https://github.com/user-attachments/assets/12905965-53db-4dca-ab75-96aaff899eb2" width="60%" />
 <img src="https://github.com/user-attachments/assets/959094ad-a91e-4a9b-85c9-9308e77cc69b" width="60%" />
 
-Domain join successful.  
+Authenticate using domain credentials.  
 <img src="https://github.com/user-attachments/assets/944a1a3e-30a0-4c57-bd77-cdfed4937650" width="60%" />
+<br/><br/>
+
 
 ---
 
@@ -210,9 +223,12 @@ Install **WINS Server** for legacy NetBIOS support.
 - Configure WINS role
 - Set DHCP Options 044 and 046
 - Used only for legacy compatibility
+<br/><br/>
 <img width="1018" height="708" alt="37" src="https://github.com/user-attachments/assets/71758bda-958f-4e91-b5e7-7305b2efbbc7" width="40%" />
 <br/><br/>
 <img width="853" height="376" alt="Screenshot 2026-01-07 030504" src="https://github.com/user-attachments/assets/0976b3f8-eabc-4623-80a0-42d58bc9c04c" width="40%" />
+<br/><br/>
+
 
 
 
