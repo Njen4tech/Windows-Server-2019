@@ -215,7 +215,6 @@ Configure **DHCP Option 003 – Router**.
 <br/><br/>
 <img width="1021" height="710" alt="38" src="https://github.com/user-attachments/assets/5488c742-f3b2-43f6-9058-b3b4c991a535" width="40%" />
 
-
 ---
 
 ### Step 13: WINS Server Configuration (Optional)
