@@ -157,9 +157,11 @@ Create domain users.
 
 ### Step 9: Client Domain Join
 
+- Configure the client machine’s DNS to point to the Domain Controller
+- Join the client to the domain
+- Authenticate using domain credentials
 
-
-Join the client machine to the domain.  
+Verify the client appears in Active Directory 
 <img src="https://github.com/user-attachments/assets/12905965-53db-4dca-ab75-96aaff899eb2" width="60%" />
 <img src="https://github.com/user-attachments/assets/959094ad-a91e-4a9b-85c9-9308e77cc69b" width="60%" />
 
