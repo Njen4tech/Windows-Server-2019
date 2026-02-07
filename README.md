@@ -26,7 +26,7 @@ This project consists of a step-by-step guide on building a Virtual Machine and 
 Download the ISO from Microsoft:  
 [Windows Server 2019 ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 
-<img src="https://github.com/user-attachments/assets/7fecb957-eabe-4f60-872b-60ee8935b092" width="60%" />
+<img src="https://github.com/user-attachments/assets/7fecb957-eabe-4f60-872b-60ee8935b092" width="40%" />
 
 ---
 
@@ -46,51 +46,51 @@ Download the ISO from Microsoft:
 
 
 Click **Next** to proceed.  
-<img src="https://github.com/user-attachments/assets/82476b3d-1915-4f16-bfec-8e1aa012ddbe" width="60%" />
+<img src="https://github.com/user-attachments/assets/82476b3d-1915-4f16-bfec-8e1aa012ddbe" width="40%" />
 
 Select **Typical (Recommended)**.  
-<img src="https://github.com/user-attachments/assets/99910378-c61c-4e0a-becd-4760f81f5da3" width="60%" />
+<img src="https://github.com/user-attachments/assets/99910378-c61c-4e0a-becd-4760f81f5da3" width="40%" />
 
 Select **Custom Setup** and proceed.  
-<img src="https://github.com/user-attachments/assets/e546cb03-f72d-46e2-a060-2f8585919e73" width="60%" />
+<img src="https://github.com/user-attachments/assets/e546cb03-f72d-46e2-a060-2f8585919e73" width="40%" />
 
 Configure User Experience settings.  
-<img src="https://github.com/user-attachments/assets/ed7eb8a0-7499-4923-bbf2-46cb16ca2d81" width="60%" />
+<img src="https://github.com/user-attachments/assets/ed7eb8a0-7499-4923-bbf2-46cb16ca2d81" width="40%" />
 
 Select application shortcuts.  
-<img src="https://github.com/user-attachments/assets/faeaa2d2-0499-4d45-8a19-8bcee419567c" width="60%" />
+<img src="https://github.com/user-attachments/assets/faeaa2d2-0499-4d45-8a19-8bcee419567c" width="40%" />
 
 Click **Install** to begin installation.  
-<img src="https://github.com/user-attachments/assets/e92aeca4-d793-4449-a65e-ad83874aee6a" width="60%" />
+<img src="https://github.com/user-attachments/assets/e92aeca4-d793-4449-a65e-ad83874aee6a" width="40%" />
 
 Wait for the installation to complete.  
-<img src="https://github.com/user-attachments/assets/8e4e3eac-dea1-4f2d-a60b-72642ba1710b" width="60%" />
+<img src="https://github.com/user-attachments/assets/8e4e3eac-dea1-4f2d-a60b-72642ba1710b" width="40%" />
 
 Installation completed.  
-<img src="https://github.com/user-attachments/assets/38947d20-1fae-42b7-ac15-3600d446b133" width="60%" />
+<img src="https://github.com/user-attachments/assets/38947d20-1fae-42b7-ac15-3600d446b133" width="40%" />
 
 **(Optional) License Key**  
-<img src="https://github.com/user-attachments/assets/64a5d335-12f1-4654-92f8-4afe8187e38e" width="60%" />
+<img src="https://github.com/user-attachments/assets/64a5d335-12f1-4654-92f8-4afe8187e38e" width="40%" />
 
 ---
 
 ### Step 3: Initial VMware Setup
 
 Launch VMware Workstation Pro.  
-<img src="https://github.com/user-attachments/assets/45578b06-2aae-4694-ba98-236d09497dad" width="60%" />
+<img src="https://github.com/user-attachments/assets/45578b06-2aae-4694-ba98-236d09497dad" width="40%" />
 
 Continue using the trial or enter a license.  
-<img src="https://github.com/user-attachments/assets/c15e8e88-669f-4ddb-a788-f1156c0ed8ec" width="60%" />
+<img src="https://github.com/user-attachments/assets/c15e8e88-669f-4ddb-a788-f1156c0ed8ec" width="40%" />
 
 Finish initial setup.  
-<img src="https://github.com/user-attachments/assets/9a2fd80d-a5dd-4623-84aa-98a646ea35a0" width="60%" />
+<img src="https://github.com/user-attachments/assets/9a2fd80d-a5dd-4623-84aa-98a646ea35a0" width="40%" />
 
 ---
 
 ### Step 4: Network Configuration (Static IP & DNS)
 
 Before installing Active Directory, configure a static IP.
-<img src="https://github.com/user-attachments/assets/3eb3f987-17a4-4230-a751-2334b2dc14b8" width="60%" />
+<img src="https://github.com/user-attachments/assets/3eb3f987-17a4-4230-a751-2334b2dc14b8" width="40%" />
 
 - Open **Network and Sharing Center**
 - Change adapter settings
@@ -102,7 +102,7 @@ Before installing Active Directory, configure a static IP.
 ### Step 5: Install Active Directory Domain Services (AD DS)
 
 Open **Server Manager** and select **Add Roles and Features**.  
-<img src="https://github.com/user-attachments/assets/8a2cc092-72c4-4373-b0b9-947d0bf6124c" width="60%" />
+<img src="https://github.com/user-attachments/assets/8a2cc092-72c4-4373-b0b9-947d0bf6124c" width="40%" />
 
 Wizard steps:
 - Before You Begin
@@ -111,47 +111,58 @@ Wizard steps:
 - Select AD DS
 - Add required features
 
-<img src="https://github.com/user-attachments/assets/01d2e9d2-a212-4d10-a8c8-f6d5f02ca503" width="60%" />
-<img src="https://github.com/user-attachments/assets/d690e92d-aae2-4a9b-8c26-d18b0aab05e2" width="60%" />
+<img src="https://github.com/user-attachments/assets/01d2e9d2-a212-4d10-a8c8-f6d5f02ca503" width="40%" />
+<br/>
+Promoting the server creates a **new Active Directory forest**
+and establishes the first Domain Controller. This process installs
+the directory database, SYSVOL, and DNS integration.
+<br/>
+<img src="https://github.com/user-attachments/assets/d690e92d-aae2-4a9b-8c26-d18b0aab05e2" width="40%" />
 
-Confirm selections and install.  
-<img src="https://github.com/user-attachments/assets/75cec4eb-8ba6-4b88-9bc2-024b1f7c8fbe" width="60%" />
+Once installed, AD DS binaries are present but inactive until
+The server is promoted to a Domain Controller.
+
+<img src="https://github.com/user-attachments/assets/75cec4eb-8ba6-4b88-9bc2-024b1f7c8fbe" width="40%" />
+
 
 ---
 
 ### Step 6: Promote Server to Domain Controller
 
-Select **Promote this server to a domain controller**.  
-<img src="https://github.com/user-attachments/assets/7e82e3ca-28f5-46a1-b801-88ead1a233c8" width="60%" />
+Promoting the server creates a **new Active Directory forest**
+and establishes the first Domain Controller. This process installs
+the directory database, SYSVOL, and DNS integration.
+<br/>
+<img src="https://github.com/user-attachments/assets/7e82e3ca-28f5-46a1-b801-88ead1a233c8" width="40%" />
 
 Add a new forest and specify the domain name.  
-<img src="https://github.com/user-attachments/assets/076ff3b0-f4d0-467a-9b0b-fec3f0afa1b0" width="60%" />
+<img src="https://github.com/user-attachments/assets/076ff3b0-f4d0-467a-9b0b-fec3f0afa1b0" width="40%" />
 
 Configure functional levels and DSRM password.  
-<img src="https://github.com/user-attachments/assets/57d56a40-a3ba-4511-aebc-081dbebbec5b" width="60%" />
+<img src="https://github.com/user-attachments/assets/57d56a40-a3ba-4511-aebc-081dbebbec5b" width="40%" />
 
 Accept defaults and complete promotion.  
-<img src="https://github.com/user-attachments/assets/6c3c2835-5716-4da3-9c76-793fec2e51c2" width="60%" />
+<img src="https://github.com/user-attachments/assets/6c3c2835-5716-4da3-9c76-793fec2e51c2" width="40%" />
+<br/>
 
 ---
 
 ### Step 7: Post-Installation Verification
 
 Log in as Domain Administrator.  
-<img src="https://github.com/user-attachments/assets/108418ff-05e8-44f5-ac06-c09cacbb0d93" width="60%" />
+<img src="https://github.com/user-attachments/assets/108418ff-05e8-44f5-ac06-c09cacbb0d93" width="40%" />
 
 Verify **Active Directory Users and Computers** opens correctly.  
-<img src="https://github.com/user-attachments/assets/884e6dd9-b416-45f6-be14-60b9c8f0c1e1" width="60%" />
+<img src="https://github.com/user-attachments/assets/884e6dd9-b416-45f6-be14-60b9c8f0c1e1" width="40%" />
 
 ---
 
 ### Step 8: Organizationals and Users
 Create Organizational Units.  
-<img width="628" height="748" alt="26" src="https://github.com/user-attachments/assets/11de5f99-7b4c-4bb2-a8df-e94f322c42b7" width="60%" />
-
+<img src="https://github.com/user-attachments/assets/11de5f99-7b4c-4bb2-a8df-e94f322c42b7" width="40%" />
 
 Create domain users.  
-<img src="https://github.com/user-attachments/assets/29e506e1-cc7f-43de-9f17-e03db2727b9b" width="60%" />
+<img src="https://github.com/user-attachments/assets/29e506e1-cc7f-43de-9f17-e03db2727b9b" width="40%" />
 
 ---
 
@@ -162,11 +173,14 @@ Create domain users.
 - Authenticate using domain credentials
 
 Verify the client appears in Active Directory 
-<img src="https://github.com/user-attachments/assets/12905965-53db-4dca-ab75-96aaff899eb2" width="60%" />
-<img src="https://github.com/user-attachments/assets/959094ad-a91e-4a9b-85c9-9308e77cc69b" width="60%" />
 
+<img src="https://github.com/user-attachments/assets/12905965-53db-4dca-ab75-96aaff899eb2" width="40%" />
+<br/>
+<img src="https://github.com/user-attachments/assets/959094ad-a91e-4a9b-85c9-9308e77cc69b" width="40%" />
+<br/>
 Authenticate using domain credentials.  
-<img src="https://github.com/user-attachments/assets/944a1a3e-30a0-4c57-bd77-cdfed4937650" width="60%" />
+<br/>
+<img src="https://github.com/user-attachments/assets/944a1a3e-30a0-4c57-bd77-cdfed4937650" width="40%" />
 <br/><br/>
 
 
@@ -175,24 +189,26 @@ Authenticate using domain credentials.
 ### Step 10: Group Policy Management
 
 Open **Group Policy Management**.  
-<img src="https://github.com/user-attachments/assets/40e93fb1-9ec1-4ac3-81e4-86741040f51e" width="60%" />
+<img src="https://github.com/user-attachments/assets/40e93fb1-9ec1-4ac3-81e4-86741040f51e" width="40%" />
 
 Verify default policies.  
-<img src="https://github.com/user-attachments/assets/9c032974-302f-41a3-845c-a5f2aa825c39" width="60%" />
+<img src="https://github.com/user-attachments/assets/9c032974-302f-41a3-845c-a5f2aa825c39" width="40%" />
 
 ---
 
 ### Step 11: DHCP Server Configuration
-<img width="718" height="621" alt="45" src="https://github.com/user-attachments/assets/4427caea-7f4b-4979-9b38-fd3938e57cf5" width="60%" />
-<br/><br/>
 Configure DHCP to automatically assign IP addresses to domain clients.
 
 - Install **DHCP Server** role
 - Authorize DHCP in Active Directory
 - Create an IPv4 scope
 - Define IP range, subnet mask, exclusions, and lease duration
+
+<img width="718" height="621" alt="45" src="https://github.com/user-attachments/assets/4427caea-7f4b-4979-9b38-fd3938e57cf5" width="40%" />
+<br/><br/>
+
 <br/>
-<img width="712" height="632" alt="44" src="https://github.com/user-attachments/assets/ca613825-f2ab-44d2-88f8-48d7c105a289" width="60%" />
+<img width="712" height="632" alt="44" src="https://github.com/user-attachments/assets/ca613825-f2ab-44d2-88f8-48d7c105a289" width="40%" />
 <br/><br/>
 <img width="1017" height="693" alt="43" src="https://github.com/user-attachments/assets/a33facfa-68d5-4914-a7a7-c5d6d3243ff7" width="40%" />
 <br/><br/>
@@ -231,10 +247,7 @@ Install **WINS Server** for legacy NetBIOS support.
 <br/><br/>
 
 
-
-
 ---
 
 ## Lab Completion Summary
 
-The Active Directory lab environment is fully operational and includes:
