@@ -2,7 +2,7 @@
 
 ## Active Directory
 
-This project consists of a step-by-step guide on building a Virtual Machine and creating an Active Directory home lab environment. Adequate CPU, RAM, and storage resources should be allocated. Networking considerations such as virtual switches and VLANs should be planned before deployment.
+This project consists of a step-by-step guide on building a Virtual Machine and creating an Active Directory home lab environment. Adequate CPU, RAM, and storage resources should be allocated. Networking considerations, such as virtual switches and VLANs, should be planned before deployment.
 
 ---
 
@@ -125,9 +125,9 @@ The server is promoted to a Domain Controller.
 
 <img src="https://github.com/user-attachments/assets/75cec4eb-8ba6-4b88-9bc2-024b1f7c8fbe" width="60%" />
 <br/>
-Follow the finishing requirement and let the server restart to add additional Tools and features, this will restart your Virtual Machine.
+Follow the finishing requirement and let the server restart to add additional Tools and features. This will restart your Virtual Machine.
 <br/>
-<img width="825" height="595" alt="Screenshot 2026-01-05 014255" src="https://github.com/user-attachments/assets/fae4cf1e-b4bf-4d65-8cdd-1db8fab5788f" />
+<img src="https://github.com/user-attachments/assets/fae4cf1e-b4bf-4d65-8cdd-1db8fab5788f" width="60%" />
 
 
 ---
@@ -209,14 +209,14 @@ Configure DHCP to automatically assign IP addresses to domain clients.
 - Create an IPv4 scope
 - Define IP range, subnet mask, exclusions, and lease duration
 
-<img width="718" height="621" alt="45" src="https://github.com/user-attachments/assets/4427caea-7f4b-4979-9b38-fd3938e57cf5" width="60%" />
+<img src="https://github.com/user-attachments/assets/4427caea-7f4b-4979-9b38-fd3938e57cf5" width="60%" />
 <br/><br/>
 
 <br/>
-<img width="712" height="632" alt="44" src="https://github.com/user-attachments/assets/ca613825-f2ab-44d2-88f8-48d7c105a289" width="60%" />
+<img src="https://github.com/user-attachments/assets/ca613825-f2ab-44d2-88f8-48d7c105a289" width="60%" />
 <br/><br/>
 
-<img width="1017" height="693" alt="43" src="https://github.com/user-attachments/assets/a33facfa-68d5-4914-a7a7-c5d6d3243ff7" width="60%" />
+<img src="https://github.com/user-attachments/assets/a33facfa-68d5-4914-a7a7-c5d6d3243ff7" width="60%" />
 <br/><br/>
 
 ---
@@ -227,15 +227,15 @@ Configure **DHCP Option 003 – Router**.
 
 - Specify the router or virtual gateway IP
 - Ensures clients can reach external networks
-<img width="710" height="625" alt="42" src="https://github.com/user-attachments/assets/e8036fb1-4ce8-4eb5-b957-7e114cc3f993" width="60%" />
+<img  src="https://github.com/user-attachments/assets/e8036fb1-4ce8-4eb5-b957-7e114cc3f993" width="60%" />
 <br/><br/>
-<img width="888" height="625" alt="41" src="https://github.com/user-attachments/assets/36f74508-31fb-458a-84c4-7920628bb070" width="60%" />
+<img src="https://github.com/user-attachments/assets/36f74508-31fb-458a-84c4-7920628bb070" width="60%" />
 <br/><br/>
-<img width="1018" height="681" alt="40" src="https://github.com/user-attachments/assets/82f30dc5-1947-40bd-b7a4-c2f38699ad10" width="60%" />
+<img src="https://github.com/user-attachments/assets/82f30dc5-1947-40bd-b7a4-c2f38699ad10" width="60%" />
 <br/><br/>
-<img width="1012" height="693" alt="39" src="https://github.com/user-attachments/assets/67968193-9b7b-4c2d-a136-2f8e4775c346" width="60%" />
+<img src="https://github.com/user-attachments/assets/67968193-9b7b-4c2d-a136-2f8e4775c346" width="60%" />
 <br/><br/>
-<img width="1021" height="710" alt="38" src="https://github.com/user-attachments/assets/5488c742-f3b2-43f6-9058-b3b4c991a535" width="60%" />
+<img src="https://github.com/user-attachments/assets/5488c742-f3b2-43f6-9058-b3b4c991a535" width="60%" />
 
 ---
 
@@ -247,9 +247,9 @@ Install **WINS Server** for legacy NetBIOS support.
 - Set DHCP Options 044 and 046
 - Used only for legacy compatibility
 <br/><br/>
-<img width="1018" height="708" alt="37" src="https://github.com/user-attachments/assets/71758bda-958f-4e91-b5e7-7305b2efbbc7" width="60%" />
+<img src="https://github.com/user-attachments/assets/71758bda-958f-4e91-b5e7-7305b2efbbc7" width="60%" />
 <br/><br/>
-<img width="853" height="376" alt="Screenshot 2026-01-07 030504" src="https://github.com/user-attachments/assets/0976b3f8-eabc-4623-80a0-42d58bc9c04c" width="60%" />
+<img src="https://github.com/user-attachments/assets/0976b3f8-eabc-4623-80a0-42d58bc9c04c" width="60%" />
 <br/><br/>
 
 
