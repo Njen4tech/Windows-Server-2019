@@ -26,7 +26,7 @@ This project consists of a step-by-step guide on building a Virtual Machine and 
 Download the ISO from Microsoft:  
 [Windows Server 2019 ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 
-<img src="https://github.com/user-attachments/assets/7fecb957-eabe-4f60-872b-60ee8935b092" width ="60%" />
+<img width="842" height="183" alt="Screenshot 2025-01-09 150312" src="https://github.com/user-attachments/assets/f34de12c-d505-4f39-8c17-a6e092d2e8be" />
 
 ---
 
@@ -49,7 +49,8 @@ Click **Next** to proceed.
 <img src="https://github.com/user-attachments/assets/82476b3d-1915-4f16-bfec-8e1aa012ddbe" width="60%" />
 
 Select **Typical (Recommended)**.  
-<img src="https://github.com/user-attachments/assets/99910378-c61c-4e0a-becd-4760f81f5da3" width="60%" />
+<img height="527" alt="Screenshot 2025-01-12 223114" src="https://github.com/user-attachments/assets/7e4d598a-1ea8-4bee-acef-f8d144abfc67" />
+
 
 Select **Custom Setup** and proceed.  
 <img src="https://github.com/user-attachments/assets/e546cb03-f72d-46e2-a060-2f8585919e73" width="60%" />
