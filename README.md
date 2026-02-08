@@ -26,7 +26,7 @@ This project consists of a step-by-step guide on building a Virtual Machine and 
 Download the ISO from Microsoft:  
 [Windows Server 2019 ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 
-<img src="https://github.com/user-attachments/assets/7fecb957-eabe-4f60-872b-60ee8935b092" width="60%" />
+<img src="https://github.com/user-attachments/assets/7fecb957-eabe-4f60-872b-60ee8935b092" width ="60%" />
 
 ---
 
@@ -98,6 +98,7 @@ Before installing Active Directory, configure a static IP.
 - Edit IPv4 properties
 - Assign a static IP
 - Set Preferred DNS to the server’s IP
+  
 ---
 
 ### Step 5: Install Active Directory Domain Services (AD DS)
@@ -128,7 +129,6 @@ The server is promoted to a Domain Controller.
 Follow the finishing requirement and let the server restart to add additional Tools and features. This will restart your Virtual Machine.
 <br/>
 <img src="https://github.com/user-attachments/assets/fae4cf1e-b4bf-4d65-8cdd-1db8fab5788f" width="60%" />
-
 
 ---
 
@@ -187,7 +187,6 @@ Authenticate using domain credentials.
 <br/>
 <img src="https://github.com/user-attachments/assets/944a1a3e-30a0-4c57-bd77-cdfed4937650" width="60%" />
 <br/><br/>
-
 
 ---
 
