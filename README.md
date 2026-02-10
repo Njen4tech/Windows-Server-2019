@@ -141,7 +141,7 @@ the directory database, SYSVOL, and DNS integration.
 <br/>
 <img src="https://github.com/user-attachments/assets/7e82e3ca-28f5-46a1-b801-88ead1a233c8" width="60%" />
 
-Add a new forest and specify the domain name.  
+Add a new forest and specify the domain name. I specify the domain name as: SuperDuper.com   
 <img src="https://github.com/user-attachments/assets/076ff3b0-f4d0-467a-9b0b-fec3f0afa1b0" width="60%" />
 
 Configure functional levels and DSRM password.  
@@ -158,7 +158,7 @@ Accept defaults and complete promotion.
 Log in as Domain Administrator.  
 <img src="https://github.com/user-attachments/assets/108418ff-05e8-44f5-ac06-c09cacbb0d93" width="60%" />
 
-Verify **Active Directory Users and Computers** opens correctly.  
+Verify **Active Directory Users and Computers** opens correctly.  This will also add to the DNS server locally.
 <img src="https://github.com/user-attachments/assets/884e6dd9-b416-45f6-be14-60b9c8f0c1e1" width="60%" />
 
 ---
